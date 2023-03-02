@@ -21,9 +21,10 @@
     </style>
     
   </head>
-  <script> /*setTimeout(function() {
+  <script> 
+        setTimeout(function() {
         location.reload();
-        }, 500000);*/
+        }, 500000);
   </script>
   
   <body>

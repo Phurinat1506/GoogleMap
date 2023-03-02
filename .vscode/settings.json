@@ -53,7 +53,8 @@
         "./snmp_switch/AD2",
         "./snmp_switch/AD1",
         "./snmp_switch/A2",
-        "./snmp_switch/A1"
+        "./snmp_switch/A1",
+        "./snmp_interface/S7"
     ],
     "python.testing.unittestArgs": [
         "-v",
