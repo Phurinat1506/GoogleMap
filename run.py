@@ -287,6 +287,21 @@ from M3FL4SW098 import *
 from M3FL5SW099 import *
 from M3FL6SW207 import *
 
+sys.path.append(os.path.abspath("C:/xampp/htdocs/GoogleMap/snmp_switch/Botanic"))
+from BOTANICFL1SW238 import *
+
+sys.path.append(os.path.abspath("C:/xampp/htdocs/GoogleMap/snmp_switch/Boonsong"))
+from BSFL1SW171 import *
+from BSFL2SW172 import *
+from BSFL3SW173 import *
+from BSFL4SW174 import *
+
+sys.path.append(os.path.abspath("C:/xampp/htdocs/GoogleMap/snmp_switch/Prasert"))
+from PSFL1SW037 import *
+from PSFL2SW168 import *
+from PSFL3SW169 import *
+from PSFL4SW170 import *
+
 for x in mycol.find():#find all document
     print(x)
 
