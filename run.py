@@ -302,6 +302,13 @@ from PSFL2SW168 import *
 from PSFL3SW169 import *
 from PSFL4SW170 import *
 
+sys.path.append(os.path.abspath("C:/xampp/htdocs/GoogleMap/snmp_switch/L8"))
+from L8FL3SW227 import *
+from L8FL4SW164 import *
+from L8FL5SW165 import *
+from L8FL6SW166 import *
+from L8FL7SW167 import *
+
 for x in mycol.find():#find all document
     print(x)
 

@@ -155,9 +155,9 @@ while(status_E3BFL1 == 0):
     break
 
 E3BFL1 = Switches(name_E3BFL1,ip_E3BFL1,cpu_E3BFL1,portStatus_E3BFL1,portInbound_E3BFL1,portOutbound_E3BFL1,log_E3BFL1)
-E3BFL1.insert_SW("E3BFL1",20.046178, 99.892686)# 3 arguments
+E3BFL1.insert_SW("E3BFL1",20.046175, 99.892359)# 3 arguments
 UPDATE_E3BFL1 = [name_E3BFL1,ip_E3BFL1,cpu_E3BFL1,portStatus_E3BFL1,portInbound_E3BFL1,portOutbound_E3BFL1,log_E3BFL1,status_E3BFL1]# 7 arguments
 E3BFL1.update_SW("E3BFL1",UPDATE_E3BFL1)# 2 arguments
-E3BFL1.update_Location("E3BFL1",20.046178, 99.892686)# 3 arguments
+E3BFL1.update_Location("E3BFL1",20.046175, 99.892359)# 3 arguments
 #E3BFL1.delete_SW("E3BFL1")# 1 argument
 
