@@ -309,6 +309,10 @@ from L8FL5SW165 import *
 from L8FL6SW166 import *
 from L8FL7SW167 import *
 
+sys.path.append(os.path.abspath("C:/xampp/htdocs/GoogleMap/snmp_switch/LDC"))
+from LDCFL1SW003 import *
+from LDCFL1SW225 import *
+
 for x in mycol.find():#find all document
     print(x)
 
